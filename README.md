@@ -1,1 +1,4 @@
 # smart_home
+
+# Abstract
+Computer Vision and Internet of Things (IoT) are emerging widely to reduce the man power for security aspects. In this project a Surveillance system has been implemented using a single board computer which consists of Raspberry Pi 3 which will act as the CPU. Developed using Python and a module named OpenCV. A local database of the authorized person is been made which has the images of all the persons who are authorized to enter that security area. Camera will act as the computer vision which is in surveillance mode, which will automatically take the image of the person compare with the local database if the person matches it will open the door the user can monitor the current situation using AWS (Amazon Web Services). If the person is unauthorized then it will send the image through mail. This image will also be stored in the AWS S3.
